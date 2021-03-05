@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FranciscoController;
-use App\Http\Controllers\AntonioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +19,4 @@ Route::get('/', function () {
 });
 
 Route::resource('francisco', [FranciscoController::class]);
-Route::resource('antonio', [AntonioController::class]);
 Route::resource('alba', [AlbaController::class]);
