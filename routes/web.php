@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 Route::resource('francisco', [FranciscoController::class]);
 Route::resource('antonio', [AntonioController::class]);
+Route::resource('alba', [AlbaController::class]);
